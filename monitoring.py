@@ -42,7 +42,7 @@ def animate(i, xs, ys, zs, ws):
     print("current_time= ",current_time)
     print("discharge_start_time1 = ",discharge_start_time)
     
-    elapsed_time_h = ( discharge_start_time-current_time )/3600# Elapsed time in hours
+    elapsed_time_h = ( discharge_start_time-current_time )/3600
     print("elapsed_time_h:",elapsed_time_h)
     
     discharged_ah = current_a * elapsed_time_h
